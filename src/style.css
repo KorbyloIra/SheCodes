@@ -1,0 +1,268 @@
+.container {
+  margin-top: 50px;
+  max-width: 700px;
+  border: 2px solid black;
+  font-family: "DynaPuff", cursive;
+  line-height: 80px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+/* .switcher {
+  max-width: 700px;
+  position: relative;
+  margin-top: -80px;
+  line-height: 25px;
+}
+.theme {
+  right: -83%;
+  padding-top: 0;
+  position: relative;
+  font-size: 20px;
+  display: block;
+}
+.switch {
+  right: -85%;
+  padding-top: 0;
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 19px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+  border: 1px solid black;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 3px;
+  bottom: 2px;
+  background-color: black;
+  transition: 0.4s;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} */
+.search-bar {
+  max-width: 50%;
+  display: flex;
+}
+.search-form {
+  display: flex;
+  position: relative;
+}
+.search-input {
+  width: 100%;
+  background: rgba(1, 1, 1, 0.1);
+  line-height: 25px;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 300px;
+}
+.submit-button {
+  border-radius: 20px;
+  line-height: 20px;
+  background: none;
+  border: none;
+  font-size: 25px;
+  opacity: 0.7;
+  transition: all 0.3s easy-in-out;
+}
+.submit-button:hover {
+  opacity: 1;
+  text-shadow: 1px 1px 5px rgb(183, 0, 255);
+}
+.search {
+  display: flex;
+  position: relative;
+  margin-top: -10px;
+  margin-left: 20px;
+  font-size: 50px;
+  cursor: pointer;
+  color: rgba(221, 51, 65, 0.8);
+  z-index: 10;
+  transition: all 0.3ms ease-in-out;
+  text-shadow: -5px 5px 5px rgba(2, 15, 117, 0.17);
+}
+.search:hover {
+  cursor: pointer;
+  color: rgb(221, 51, 65);
+  text-shadow: 1px 1px 5px rgba(183, 0, 255, 0.7),
+    -5px 5px 5px rgba(2, 15, 117, 0.17);
+}
+.currently-bar {
+  margin-top: 50px;
+  text-align: left;
+  line-height: 50px;
+  font-size: 40px;
+  color: blueviolet;
+  font-weight: bold;
+}
+.currently {
+  text-align: center;
+}
+.weather-decription {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+.time {
+  line-height: 50px;
+  font-size: 20px;
+  color: black;
+  opacity: 0.7;
+}
+.current-city {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 55px;
+  color: rgba(70, 66, 66, 0.8);
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+  padding: 0 0 0 0;
+}
+.text {
+  opacity: 0.5;
+  z-index: 1000;
+  position: absolute;
+  margin: 80px 0 0;
+  transition: all 0.5ms ease-in-out;
+  text-transform: capitalize;
+}
+.text:hover {
+  opacity: 1;
+}
+.current-temp {
+  text-align: start;
+  margin-left: 30px;
+  padding: auto;
+  font-size: 90px;
+  color: blueviolet;
+}
+
+.current-forecast {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: left;
+}
+.current-direction {
+  margin: 30px 0 0 0;
+  width: 60px;
+  height: 60px;
+}
+
+#current-weather {
+  height: 120px;
+  width: 140px;
+  /* font-size: 10px; */
+  /* padding: 20px 80px 0 10px; */
+}
+.directions {
+  width: 35px;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.border-bottom-day {
+  border-bottom: 1px solid black;
+}
+.future-forecast {
+  padding: 20px 0 0 0;
+}
+.card-title {
+  padding-top: 10px;
+}
+.weather-day {
+  margin-top: -10px;
+  margin-left: 0;
+  width: 100px;
+  height: 100px;
+}
+.temepature-day {
+  margin-left: 10px;
+  margin-top: 0px;
+  font-size: 45px;
+  color: rgb(31, 63, 116);
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: linear-gradient(
+    110.5deg,
+    rgba(248, 196, 249, 0.66) 22.8%,
+    rgba(253, 122, 4, 0.15) 64.6%
+  );
+  border-radius: 10px;
+}
+.card-body {
+  padding: 0 16px;
+}
+.card-title {
+  padding-top: 30px;
+  color: rgb(31, 63, 116);
+  font-size: 24px;
+}
+.row-border {
+  box-sizing: border-box;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease-in-out;
+}
+.row-border:hover {
+  background: linear-gradient(
+    110.5deg,
+    rgba(248, 196, 249, 0.86) 22.8%,
+    rgba(253, 122, 4, 0.35) 64.6%
+  );
+}
+.row-border-bottom {
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+}
+.row-border-bottom:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    110.5deg,
+    rgba(248, 196, 249, 0.86) 22.8%,
+    rgba(253, 122, 4, 0.35) 64.6%
+  );
+  border-radius: 0 0 5px 5px;
+}
+footer {
+  margin: auto;
+  line-height: normal;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
+}
+.footer {
+  text-decoration: none;
+}
+.card-body a {
+  text-decoration: none;
+}
